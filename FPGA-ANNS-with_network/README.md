@@ -1,6 +1,6 @@
-# Vitis with 100 Gbps TCP/IP Network Stack
+# ANNS accelerator with TCP/IP network interface
 
-This repository provides TCP/IP network support at 100 Gbit/s in Vitis and provides several examples to demonstrate the usage. 
+Original repo of the open source 100Gbps TCP/IP kernel on FPGA: https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP
 
 ## Architecture Overview
 
@@ -39,17 +39,19 @@ During Tx process, the payload are buffered in global memory for retransmission 
 ### (3) Concurrent Connections and Large Maximum Transfer Unit (MTU) 
 To achieve 100 Gbps at the application level, it requires that both end points of the communication can work at network rate. In the case of communicating between an FPGA and a CPU, it requires proper tunning on the CPU side to meet the network rate. First, concurrent connections should be establised and pinned on different threads. Second, large MTU (e.g., 4096 Bytes) should be set to reduce the overhead of packet parsing. 
 
-## Performance Benchmark
-For performance benchmark in terms of throughput and open connection time, please see [here](img/Vitis_100Gbps_TCP_benchmark.pdf).
-
 ## Clone the Repository
 
 Git Clone 
 
 	git clone	
-	git submodule update --init --recursive
 
 ## Configure TCP Stack
+
+First, source the Vitis tool (directory depends on installation). We use 2020.1 here, using other versions like 2019.2 or 2020.2 will not work.
+
+```
+source /opt/Xilinx/Vitis/2020.1/settings64.sh
+```
 
 Setup the TCP/IP stack HLS IPs:
 
@@ -72,20 +74,11 @@ TCP/IP stack options:
 The following example command will synthesis and implement the design with selected `user` kernel. The generated XCLBIN resides in folder build_dir.hw.xilinx_u280_xdma_201920_3. The generated host executable resides in folder host.
 
     cd ../
-    make all TARGET=hw DEVICE=/opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm USER_KRNL=iperf_krnl USER_KRNL_MODE=rtl NETH=4
+    make all TARGET=hw DEVICE=/opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm USER_KRNL=generalized_attempt_K_1_12_bank_6_PE USER_KRNL_MODE=hls NETH=4
 
-* `DEVICE` Alveo development target platform
-* `USER_KRNL` Name of the user kernel
-* `USER_KRNL_MODE` If the user kernel is a rtl kernel, rtl mode should be specified. If the user kernel is a C/C++ kernel, then hls mode should be specified.
-
-Kernel options:
-
-|  USER_KRNL                   | USER_KRNL_MODE                       | Desription                                                                         |
-|------------------------|------------------------------|------------------------------------------------------------------------------------|
-| iperf\_krnl         | rtl                        | Iperf kernel contains some HLS IPs and a rtl wrapper. It can be used to benchmark netowrk bandwidth acting as iperf2 client. Usage: ./host XCLBIN_FILE  [Server IP address in format 10.1.212.121] [#Connection] [Seconds]. The default port number of iperf2 is 5001.                                                                       |
-| scatter\_krnl         | rtl                        |  Scatter kernel contains some HLS IPs and a rtl wrapper. It scatters packets through serveral connections. Usage: ./host XCLBIN_FILE  [IP address in format 10.1.212.121] [Base Port] [#Connection] [#Tx Pkg]. Kernel tries to open connections with different port numbers with incremental offset by the Base Port.                                                                      |
-| hls\_send\_krnl        | hls                        | This kernel is a C kernel working in the VITIS HLS flow. It contains simple examples in C to open connection, send data through the connection. Usage: ./host XCLBIN_FILE  [#Tx Pkt] [IP address in format: 10.1.212.121] [Port]                                  |
-| hls\_recv\_krnl      |  hls               | This kernel is a C kernel working in the VITIS HLS flow. It contains simple examples in C to listen on port and receive data from connection established with that port. Usage: ./host XCLBIN_FILE  [#RxByte] [Port]                     |
+* `DEVICE` Alveo development target platform, here we use u280 FPGA, don't change this argument in the command
+* `USER_KRNL` Name of the user kernel, we have 3 version of kernels targeting different K(1,10,100): generalized_attempt_K_1_12_bank_6_PE, generalized_K_10_12_bank_4_PE, generalized_K_100_12_bank6_6_PE
+* `USER_KRNL_MODE` The user kernels are written in C/C++, thus keep the 'hls' option here.
 
 ## Repository structure
 
@@ -96,15 +89,13 @@ Kernel options:
 │   └── cmac_krnl
 │   └── network_krnl
 │   └── user_krnl
-|		└── iperf_krnl
-|		└── scatter_krnl
-|		└── hls_send_krnl
-|		└── hls_recv_krnl
+|		└── generalized_attempt_K_1_12_bank_6_PE
+|		└── generalized_K_10_12_bank_4_PE
+|		└── generalized_K_100_12_bank6_6_PE
 ├── host
-|	└── iperf_krnl
-|	└── scatter_krnl
-|	└── hls_send_krnl
-|	└── hls_recv_krnl
+|	└── generalized_attempt_K_1_12_bank_6_PE
+|	└── generalized_K_10_12_bank_4_PE
+|	└── generalized_K_100_12_bank6_6_PE
 ├── common
 ├── img
 ~~~
@@ -123,7 +114,7 @@ Kernel options:
 
 | Vitis  | XRT       |
 |--------|-----------|
-| 2019.2 | 2.6.655   |
+| 2020.1 |  2.9.317  |
 
 ### Alveo Cards
 
