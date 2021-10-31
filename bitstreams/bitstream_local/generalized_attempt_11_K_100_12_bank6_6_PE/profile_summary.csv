@@ -1,0 +1,227 @@
+Profile Summary
+Generated on: 2021-10-30 14:05:52
+Msec since Epoch: 1635595552800
+Profiled application: host
+Target platform: 
+Tool version: 2020.2
+XRT build version: 2.9.317
+Build version branch: 2020.2_PU1
+Build version hash: b0230e59e22351fb957dc46a6e68d7560e5f630c
+Build version date: N/A 
+Target devices: xilinx_u280_xdma_201920_3-0
+Flow mode: System Run
+
+OpenCL API Calls
+API Name,Number Of Calls,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+clFinish,1,12785.9,12785.9,12785.9,12785.9,
+clCreateProgramWithBinary,1,107.396,107.396,107.396,107.396,
+clReleaseContext,1,46.5046,46.5046,46.5046,46.5046,
+clReleaseProgram,1,35.6622,35.6622,35.6622,35.6622,
+clCreateContext,1,15.2877,15.2877,15.2877,15.2877,
+clReleaseKernel,1,11.3765,11.3765,11.3765,11.3765,
+clCreateKernel,1,10.2283,10.2283,10.2283,10.2283,
+clCreateBuffer,18,5.87058,0.002872,0.326143,0.526068,
+clEnqueueMigrateMemObjects,2,0.281755,0.011774,0.140878,0.269981,
+clReleaseMemObject,54,0.220733,0.002237,0.00408765,0.029807,
+clEnqueueTask,1,0.128428,0.128428,0.128428,0.128428,
+clSetKernelArg,25,0.118419,0.002304,0.00473676,0.045502,
+clRetainMemObject,36,0.108938,0.002206,0.00302606,0.023825,
+clGetExtensionFunctionAddress,2,0.037791,0.006631,0.0188955,0.03116,
+clCreateCommandQueue,1,0.015168,0.015168,0.015168,0.015168,
+clGetPlatformInfo,6,0.01345,0.001882,0.00224167,0.003053,
+clGetExtensionFunctionAddressForPlatform,2,0.011165,0.002271,0.0055825,0.008894,
+clReleaseDevice,2,0.009085,0.002715,0.0045425,0.00637,
+clReleaseCommandQueue,1,0.006429,0.006429,0.006429,0.006429,
+clGetDeviceIDs,2,0.006264,0.002167,0.003132,0.004097,
+clRetainDevice,2,0.004761,0.002096,0.0023805,0.002665,
+
+
+Kernel Execution
+Kernel,Number Of Enqueues,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+vadd,1,12496.4,12496.4,12496.4,12496.4,
+
+
+Compute Unit Utilization
+Device,Compute Unit,Kernel,Global Work Size,Local Work Size,Number Of Calls,Dataflow Execution,Max Overlapping Executions,Dataflow Acceleration,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),Clock Frequency (MHz),
+xilinx_u280_xdma_201920_3-0,vadd_1,vadd,1:1:1,1:1:1,1,Yes,1,1.000000x,12496,12496,12496,12496,140,
+
+
+Data Transfer: Host to Global Memory
+Context:Number of Devices,Transfer Type,Number Of Buffer Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Buffer Size (KB),Total Time (ms),Average Time (ms),
+context0:1,READ,1,7029.456939,73.223510,8000,1.138068,1.138068,
+context0:1,WRITE,1,9591.284896,99.909218,2.76486e+06,288.267536,288.267536,
+
+
+Data Transfer: Kernels to Global Memory
+Device,Compute Unit/Port Name,Kernel Arguments,Memory Resources,Transfer Type,Number Of Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Size (KB),Average Latency (ns),
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem0,HBM_in0,HBM[0],READ,2323090,5714.55,49.6055,0.827008,521.49,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem1,HBM_in1,HBM[1],READ,2323090,5702.65,49.5021,0.827008,522.901,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem10,HBM_in10,HBM[10],READ,2323090,5738.4,49.8125,0.827008,518.763,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem11,HBM_in11,HBM[11],READ,2323090,5687.58,49.3714,0.827008,524.572,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem2,HBM_in2,HBM[2],READ,2323090,5738.87,49.8166,0.827008,518.7,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem3,HBM_in3,HBM[3],READ,2323090,5688.16,49.3764,0.827008,524.485,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem4,HBM_in4,HBM[4],READ,2323090,5737.71,49.8065,0.827008,518.843,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem5,HBM_in5,HBM[5],READ,2323090,5687.64,49.3719,0.827008,524.572,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem6,HBM_in6,HBM[6],READ,2323090,5738.33,49.8119,0.827008,518.765,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem7,HBM_in7,HBM[7],READ,2323090,5687.79,49.3732,0.827008,524.546,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem8,HBM_in8,HBM[8],READ,2323090,5739.18,49.8193,0.827008,518.676,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmem9,HBM_in9,HBM[9],READ,2323090,5687.83,49.3735,0.827008,524.54,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmemA,HBM_meta_info,HBM[25],READ,95360,453.94,3.94045,0.064,549.614,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmemC,HBM_vector_quantizer,HBM[26],READ,510000,1844.47,16.011,0.512,277.587,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmemC0,HBM_centroid_vectors_stage2_0,HBM[19],READ,109230000,8957.78,77.7585,1.024,1180.89,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmemC1,HBM_centroid_vectors_stage2_1,HBM[20],READ,109230000,8957.8,77.7587,1.024,1178.09,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmemC2,HBM_centroid_vectors_stage2_2,HBM[21],READ,109220000,8957.72,77.758,1.024,1074.68,
+xilinx_u280_xdma_201920_3-0,vadd_1/m_axi_gmemF,HBM_out,HBM[27],WRITE,62500,898.585,7.80022,0.128,215.313,
+
+
+Data Transfer: DMA
+Device,Transfer Type,Number Of Transfers,Transfer Rate (MB/s),Total Data Transfer (MB),Total Time (ms),Average Size (KB),Average Latency (ns),
+xilinx_u280_xdma_201920_3-0,READ,1954,N/A,8,N/A,4.09417,N/A,
+
+
+Data Transfer: DMA Bypass
+Device,Transfer Type,Number Of Transfers,Transfer Rate (MB/s),Total Data Transfer (MB),Total Time (ms),Average Size (KB),Average Latency (ns),
+
+
+Data Transfer: Global Memory to Global Memory
+Device,Transfer Type,Number Of Transfers,Transfer Rate (MB/s),Total Data Transfer (MB),Total Time (ms),Average Size (KB),Average Latency (ns),
+
+
+Top Data Transfer: Kernels to Global Memory
+Device,Compute Unit,Number of Transfers,Average Bytes per Transfer,Transfer Efficiency (%),Total Data Transfer (MB),Total Write (MB),Total Read (MB),Total Transfer Rate (MB/s),
+xilinx_u280_xdma_201920_3-0,vadd_1,356224940,1007.44,24.5956,358874,8,358866,8614.7,
+
+
+Top Kernel Execution
+Kernel Instance Address,Kernel,Context ID,Command Queue ID,Device,Start Time (ms),Duration (ms),Global Work Size,Local Work Size,
+94019402213376,vadd,0,0,xilinx_u280_xdma_201920_3-0,483.817,12496.4,1:1:1,1:1:1,
+
+
+Top Memory Writes: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Writing Rate(MB/s),
+0,0,0,195.425,288.267536,2.76486e+06,9591.284896,
+
+
+Top Memory Reads: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Reading Rate(MB/s),
+7247757312,0,0,12980.5,1.138068,8000,7029.456939,
+
+
+Guidance Parameters
+Parameter,Element,Value,
+DEVICE_EXEC_TIME,xilinx_u280_xdma_201920_3-0,12496.382907,
+CU_CALLS,xilinx_u280_xdma_201920_3-0|vadd_1,1,
+NUM_MONITORS,xilinx_u280_xdma_201920_3-0|XCL_PERF_MON_ACCEL|1,1,
+NUM_MONITORS,xilinx_u280_xdma_201920_3-0|XCL_PERF_MON_MEMORY|18,20,
+NUM_MONITORS,xilinx_u280_xdma_201920_3-0|XCL_PERF_MON_STR|0,0,
+MIGRATE_MEM,host,2,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|DDR[0],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|DDR[1],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[0],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[10],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[11],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[12],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[13],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[14],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[15],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[16],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[17],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[18],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[19],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[1],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[20],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[21],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[22],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[23],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[24],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[25],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[26],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[27],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[28],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[29],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[2],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[30],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[31],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[3],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[4],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[5],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[6],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[7],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[8],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|HBM[9],1,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|PLRAM[0],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|PLRAM[1],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|PLRAM[2],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|PLRAM[3],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|PLRAM[4],0,
+MEMORY_USAGE,xilinx_u280_xdma_201920_3-0|PLRAM[5],0,
+PLRAM_DEVICE,all,1,
+HBM_DEVICE,all,1,
+KDMA_DEVICE,all,0,
+P2P_DEVICE,all,0,
+P2P_HOST_TRANSFERS,host,0,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem0,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem1,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem10,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem11,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem2,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem3,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem4,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem5,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem6,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem7,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem8,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmem9,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmema,32,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmemc,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmemc0,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmemc1,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmemc2,512,
+PORT_BIT_WIDTH,vadd_1/m_axi_gmemf,64,
+KERNEL_COUNT,vadd,1,
+OBJECTS_RELEASED,all,1,
+TRACE_MEMORY,all,FIFO,
+CU_CONTEXT_EN,all,0,
+MAX_PARALLEL_KERNEL_ENQUEUES,vadd,1,
+COMMAND_QUEUE_OOO,94019397719360,0,
+KERNEL_BUFFER_INFO,vadd|HBM_in0|HBM[0]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in1|HBM[1]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in2|HBM[2]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in3|HBM[3]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in4|HBM[4]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in5|HBM[5]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in6|HBM[6]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in7|HBM[7]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in8|HBM[8]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in9|HBM[9]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in10|HBM[10]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_in11|HBM[11]|1,224303680,
+KERNEL_BUFFER_INFO,vadd|HBM_centroid_vectors_stage2_0|HBM[19]|1,11185152,
+KERNEL_BUFFER_INFO,vadd|HBM_centroid_vectors_stage2_1|HBM[20]|1,11185152,
+KERNEL_BUFFER_INFO,vadd|HBM_centroid_vectors_stage2_2|HBM[21]|1,11184128,
+KERNEL_BUFFER_INFO,vadd|HBM_meta_info|HBM[25]|1,6103040,
+KERNEL_BUFFER_INFO,vadd|HBM_vector_quantizer|HBM[26]|1,33554432,
+KERNEL_BUFFER_INFO,vadd|HBM_out|HBM[27]|1,8000000,
+TRACE_BUFFER_FULL,xilinx_u280_xdma_201920_3-0,1,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u280_xdma_201920_3-0|DDR,512,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u280_xdma_201920_3-0|HBM,256,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u280_xdma_201920_3-0|PLRAM,512,
+XRT_INI_SETTING,aie_trace_buffer_size,8M,
+XRT_INI_SETTING,continuous_trace,0,
+XRT_INI_SETTING,continuous_trace_interval_ms,10,
+XRT_INI_SETTING,data_transfer_trace,fine,
+XRT_INI_SETTING,launch_waveform,batch,
+XRT_INI_SETTING,lop_trace,0,
+XRT_INI_SETTING,power_profile,0,
+XRT_INI_SETTING,profile,1,
+XRT_INI_SETTING,stall_trace,off,
+XRT_INI_SETTING,timeline_trace,1,
+XRT_INI_SETTING,trace_buffer_size,1M,
+XRT_INI_SETTING,verbosity,4,
+BUFFER_RD_ACTIVE_TIME_MS,all,1.13807,
+BUFFER_WR_ACTIVE_TIME_MS,all,576.633,
+BUFFER_TX_ACTIVE_TIME_MS,all,12786.2,
+APPLICATION_RUN_TIME_MS,all,14421.3,
+TOTAL_KERNEL_RUN_TIME_MS,all,12496.4,
+
+

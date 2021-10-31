@@ -1,0 +1,1466 @@
+nlist: 1024
+nprobe: 2
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF1024,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 171
+centroids_per_partition_last_PE: 169
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.69730002  =====
+nlist: 1024
+nprobe: 3
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF1024,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 171
+centroids_per_partition_last_PE: 169
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.78549999  =====
+nlist: 1024
+nprobe: 13
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF1024,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 14
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 15
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 16
+Inferred parameters:
+centroids_per_partition_even: 171
+centroids_per_partition_last_PE: 169
+nprobe_per_table_construction_pe_larger: 3
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.95130002  =====
+nlist: 2048
+nprobe: 2
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF2048,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 342
+centroids_per_partition_last_PE: 338
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.65109998  =====
+nlist: 2048
+nprobe: 4
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF2048,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 342
+centroids_per_partition_last_PE: 338
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.79769999  =====
+nlist: 2048
+nprobe: 15
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF2048,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 16
+Inferred parameters:
+centroids_per_partition_even: 342
+centroids_per_partition_last_PE: 338
+nprobe_per_table_construction_pe_larger: 3
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94929999  =====
+nlist: 4096
+nprobe: 2
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF4096,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 683
+centroids_per_partition_last_PE: 681
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.61100000  =====
+nlist: 4096
+nprobe: 5
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF4096,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 683
+centroids_per_partition_last_PE: 681
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.79380000  =====
+nlist: 4096
+nprobe: 20
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF4096,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 21
+Inferred parameters:
+centroids_per_partition_even: 683
+centroids_per_partition_last_PE: 681
+nprobe_per_table_construction_pe_larger: 4
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94790000  =====
+nlist: 8192
+nprobe: 2
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF8192,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 1366
+centroids_per_partition_last_PE: 1362
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.55729997  =====
+nlist: 8192
+nprobe: 6
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF8192,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 1366
+centroids_per_partition_last_PE: 1362
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.78560001  =====
+nlist: 8192
+nprobe: 26
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF8192,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 1366
+centroids_per_partition_last_PE: 1362
+nprobe_per_table_construction_pe_larger: 5
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94720000  =====
+nlist: 16384
+nprobe: 3
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF16384,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 2731
+centroids_per_partition_last_PE: 2729
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.60949999  =====
+nlist: 16384
+nprobe: 7
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF16384,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 8
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 9
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 10
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 11
+Inferred parameters:
+centroids_per_partition_even: 2731
+centroids_per_partition_last_PE: 2729
+nprobe_per_table_construction_pe_larger: 2
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.77389997  =====
+nlist: 16384
+nprobe: 32
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF16384,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 2731
+centroids_per_partition_last_PE: 2729
+nprobe_per_table_construction_pe_larger: 6
+nprobe_per_table_construction_pe_smaller: 2
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94370002  =====
+nlist: 32768
+nprobe: 3
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF32768,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 5462
+centroids_per_partition_last_PE: 5458
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.56320000  =====
+nlist: 32768
+nprobe: 9
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF32768,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 10
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 11
+Inferred parameters:
+centroids_per_partition_even: 5462
+centroids_per_partition_last_PE: 5458
+nprobe_per_table_construction_pe_larger: 2
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.77530003  =====
+nlist: 32768
+nprobe: 40
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF32768,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 5462
+centroids_per_partition_last_PE: 5458
+nprobe_per_table_construction_pe_larger: 7
+nprobe_per_table_construction_pe_smaller: 5
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.93650001  =====
+nlist: 65536
+nprobe: 4
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF65536,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 10923
+centroids_per_partition_last_PE: 10921
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.57200003  =====
+nlist: 65536
+nprobe: 11
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF65536,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 10923
+centroids_per_partition_last_PE: 10921
+nprobe_per_table_construction_pe_larger: 2
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.76080000  =====
+nlist: 65536
+nprobe: 50
+OPQ enable: 0
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF65536,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 10923
+centroids_per_partition_last_PE: 10921
+nprobe_per_table_construction_pe_larger: 9
+nprobe_per_table_construction_pe_smaller: 5
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.93229997  =====
+nlist: 1024
+nprobe: 2
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF1024,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 171
+centroids_per_partition_last_PE: 169
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.69940001  =====
+nlist: 1024
+nprobe: 3
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF1024,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 171
+centroids_per_partition_last_PE: 169
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.78789997  =====
+nlist: 1024
+nprobe: 11
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF1024,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 171
+centroids_per_partition_last_PE: 169
+nprobe_per_table_construction_pe_larger: 2
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94809997  =====
+nlist: 2048
+nprobe: 2
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF2048,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 342
+centroids_per_partition_last_PE: 338
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.65429997  =====
+nlist: 2048
+nprobe: 4
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF2048,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 342
+centroids_per_partition_last_PE: 338
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.80100000  =====
+nlist: 2048
+nprobe: 13
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF2048,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 14
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 15
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 16
+Inferred parameters:
+centroids_per_partition_even: 342
+centroids_per_partition_last_PE: 338
+nprobe_per_table_construction_pe_larger: 3
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94470000  =====
+nlist: 4096
+nprobe: 2
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF4096,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 683
+centroids_per_partition_last_PE: 681
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.61390001  =====
+nlist: 4096
+nprobe: 5
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF4096,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 683
+centroids_per_partition_last_PE: 681
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.79650003  =====
+nlist: 4096
+nprobe: 18
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF4096,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 683
+centroids_per_partition_last_PE: 681
+nprobe_per_table_construction_pe_larger: 3
+nprobe_per_table_construction_pe_smaller: 3
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94590002  =====
+nlist: 8192
+nprobe: 2
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF8192,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 3
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 1366
+centroids_per_partition_last_PE: 1362
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.55629998  =====
+nlist: 8192
+nprobe: 6
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF8192,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 1366
+centroids_per_partition_last_PE: 1362
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.78619999  =====
+nlist: 8192
+nprobe: 24
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF8192,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 1366
+centroids_per_partition_last_PE: 1362
+nprobe_per_table_construction_pe_larger: 4
+nprobe_per_table_construction_pe_smaller: 4
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94599998  =====
+nlist: 16384
+nprobe: 3
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF16384,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 2731
+centroids_per_partition_last_PE: 2729
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.60979998  =====
+nlist: 16384
+nprobe: 7
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF16384,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 8
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 9
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 10
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 11
+Inferred parameters:
+centroids_per_partition_even: 2731
+centroids_per_partition_last_PE: 2729
+nprobe_per_table_construction_pe_larger: 2
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.77170002  =====
+nlist: 16384
+nprobe: 30
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF16384,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 2731
+centroids_per_partition_last_PE: 2729
+nprobe_per_table_construction_pe_larger: 5
+nprobe_per_table_construction_pe_smaller: 5
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.94230002  =====
+nlist: 32768
+nprobe: 3
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF32768,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 4
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 5462
+centroids_per_partition_last_PE: 5458
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.56419998  =====
+nlist: 32768
+nprobe: 9
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF32768,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 10
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 11
+Inferred parameters:
+centroids_per_partition_even: 5462
+centroids_per_partition_last_PE: 5458
+nprobe_per_table_construction_pe_larger: 2
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.77550000  =====
+nlist: 32768
+nprobe: 38
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF32768,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 5462
+centroids_per_partition_last_PE: 5458
+nprobe_per_table_construction_pe_larger: 7
+nprobe_per_table_construction_pe_smaller: 3
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.93599999  =====
+nlist: 65536
+nprobe: 4
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF65536,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 5
+Increasing nprobe_stage4 due to stage 4 hardware compatibility reason,current nprobe_stage4: 6
+Inferred parameters:
+centroids_per_partition_even: 10923
+centroids_per_partition_last_PE: 10921
+nprobe_per_table_construction_pe_larger: 1
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.56900001  =====
+nlist: 65536
+nprobe: 11
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF65536,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 10923
+centroids_per_partition_last_PE: 10921
+nprobe_per_table_construction_pe_larger: 2
+nprobe_per_table_construction_pe_smaller: 1
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.75919998  =====
+nlist: 65536
+nprobe: 51
+OPQ enable: 1
+data directory/mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF65536,PQ16_4_FPGA_12_banks/FPGA_0
+ground truth directory/mnt/scratch/wenqi/saved_npy_data/gnd
+Inferred parameters:
+centroids_per_partition_even: 10923
+centroids_per_partition_last_PE: 10921
+nprobe_per_table_construction_pe_larger: 9
+nprobe_per_table_construction_pe_smaller: 6
+Found Platform
+Platform Name: Xilinx
+Finished getting device...
+Finished creating context...
+Finished creating command queue...
+INFO: Reading vadd.xclbin
+Loading: 'vadd.xclbin'
+Finished loading binary...
+Finished creating program...
+Finished creating kernel...
+Start to allocate device memory...
+Starting copy from Host to device...
+Host to device finished...
+Comparing Results...
+
+=====  Recall: 0.93480003  =====
+Executing command:
+./host vadd.xclbin 1024 2 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF1024,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF1024,PQ16 topK=100 recall_goal=0.6 QPS=3046.1800901669303
+
+
+Executing command:
+./host vadd.xclbin 1024 3 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF1024,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF1024,PQ16 topK=100 recall_goal=0.8 QPS=2055.451983613937
+
+
+Executing command:
+./host vadd.xclbin 1024 13 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF1024,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF1024,PQ16 topK=100 recall_goal=0.95 QPS=493.28150588978116
+
+
+Executing command:
+./host vadd.xclbin 2048 2 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF2048,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF2048,PQ16 topK=100 recall_goal=0.6 QPS=5791.125679009486
+
+
+Executing command:
+./host vadd.xclbin 2048 4 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF2048,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF2048,PQ16 topK=100 recall_goal=0.8 QPS=2969.7824634345534
+
+
+Executing command:
+./host vadd.xclbin 2048 15 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF2048,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF2048,PQ16 topK=100 recall_goal=0.95 QPS=823.4858154568288
+
+
+Executing command:
+./host vadd.xclbin 4096 2 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF4096,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF4096,PQ16 topK=100 recall_goal=0.6 QPS=10938.956248550588
+
+
+Executing command:
+./host vadd.xclbin 4096 5 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF4096,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF4096,PQ16 topK=100 recall_goal=0.8 QPS=4562.8764373060785
+
+
+Executing command:
+./host vadd.xclbin 4096 20 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF4096,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF4096,PQ16 topK=100 recall_goal=0.95 QPS=1192.521933459661
+
+
+Executing command:
+./host vadd.xclbin 8192 2 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF8192,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF8192,PQ16 topK=100 recall_goal=0.6 QPS=6359.1791571543945
+
+
+Executing command:
+./host vadd.xclbin 8192 6 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF8192,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF8192,PQ16 topK=100 recall_goal=0.8 QPS=6358.855660335366
+
+
+Executing command:
+./host vadd.xclbin 8192 26 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF8192,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF8192,PQ16 topK=100 recall_goal=0.95 QPS=1708.05570311259
+
+
+Executing command:
+./host vadd.xclbin 16384 3 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF16384,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF16384,PQ16 topK=100 recall_goal=0.6 QPS=3192.1855298229934
+
+
+Executing command:
+./host vadd.xclbin 16384 7 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF16384,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF16384,PQ16 topK=100 recall_goal=0.8 QPS=3192.124390703257
+
+
+Executing command:
+./host vadd.xclbin 16384 32 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF16384,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF16384,PQ16 topK=100 recall_goal=0.95 QPS=2436.9797048330183
+
+
+Executing command:
+./host vadd.xclbin 32768 3 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF32768,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF32768,PQ16 topK=100 recall_goal=0.6 QPS=1598.9383049655032
+
+
+Executing command:
+./host vadd.xclbin 32768 9 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF32768,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF32768,PQ16 topK=100 recall_goal=0.8 QPS=1598.933191774448
+
+
+Executing command:
+./host vadd.xclbin 32768 40 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF32768,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF32768,PQ16 topK=100 recall_goal=0.95 QPS=1598.8769488311411
+
+
+Executing command:
+./host vadd.xclbin 65536 4 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF65536,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF65536,PQ16 topK=100 recall_goal=0.6 QPS=800.2560819462227
+
+
+Executing command:
+./host vadd.xclbin 65536 11 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF65536,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF65536,PQ16 topK=100 recall_goal=0.8 QPS=800.2496778995046
+
+
+Executing command:
+./host vadd.xclbin 65536 50 0 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_IVF65536,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=IVF65536,PQ16 topK=100 recall_goal=0.95 QPS=800.2304663743158
+
+
+Executing command:
+./host vadd.xclbin 1024 2 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF1024,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF1024,PQ16 topK=100 recall_goal=0.6 QPS=3047.1918603411027
+
+
+Executing command:
+./host vadd.xclbin 1024 3 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF1024,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF1024,PQ16 topK=100 recall_goal=0.8 QPS=2054.320338387646
+
+
+Executing command:
+./host vadd.xclbin 1024 11 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF1024,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF1024,PQ16 topK=100 recall_goal=0.95 QPS=580.1204330018912
+
+
+Executing command:
+./host vadd.xclbin 2048 2 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF2048,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF2048,PQ16 topK=100 recall_goal=0.6 QPS=5791.092142067072
+
+
+Executing command:
+./host vadd.xclbin 2048 4 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF2048,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF2048,PQ16 topK=100 recall_goal=0.8 QPS=2968.592293534406
+
+
+Executing command:
+./host vadd.xclbin 2048 13 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF2048,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF2048,PQ16 topK=100 recall_goal=0.95 QPS=945.5817691834901
+
+
+Executing command:
+./host vadd.xclbin 4096 2 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF4096,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF4096,PQ16 topK=100 recall_goal=0.6 QPS=10945.373828297732
+
+
+Executing command:
+./host vadd.xclbin 4096 5 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF4096,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF4096,PQ16 topK=100 recall_goal=0.8 QPS=4561.481934250799
+
+
+Executing command:
+./host vadd.xclbin 4096 18 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF4096,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF4096,PQ16 topK=100 recall_goal=0.95 QPS=1320.8975234492334
+
+
+Executing command:
+./host vadd.xclbin 8192 2 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF8192,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF8192,PQ16 topK=100 recall_goal=0.6 QPS=6359.098279863916
+
+
+Executing command:
+./host vadd.xclbin 8192 6 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF8192,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF8192,PQ16 topK=100 recall_goal=0.8 QPS=6358.572627616552
+
+
+Executing command:
+./host vadd.xclbin 8192 24 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF8192,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF8192,PQ16 topK=100 recall_goal=0.95 QPS=1845.5802965847536
+
+
+Executing command:
+./host vadd.xclbin 16384 3 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF16384,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF16384,PQ16 topK=100 recall_goal=0.6 QPS=3192.0632539254398
+
+
+Executing command:
+./host vadd.xclbin 16384 7 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF16384,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF16384,PQ16 topK=100 recall_goal=0.8 QPS=3192.012308399461
+
+
+Executing command:
+./host vadd.xclbin 16384 30 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF16384,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF16384,PQ16 topK=100 recall_goal=0.95 QPS=2592.8701257282723
+
+
+Executing command:
+./host vadd.xclbin 32768 3 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF32768,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF32768,PQ16 topK=100 recall_goal=0.6 QPS=1598.8974003527167
+
+
+Executing command:
+./host vadd.xclbin 32768 9 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF32768,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF32768,PQ16 topK=100 recall_goal=0.8 QPS=1598.8846180904204
+
+
+Executing command:
+./host vadd.xclbin 32768 38 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF32768,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF32768,PQ16 topK=100 recall_goal=0.95 QPS=1598.848828843233
+
+
+Executing command:
+./host vadd.xclbin 65536 4 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF65536,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF65536,PQ16 topK=100 recall_goal=0.6 QPS=800.2496778995046
+
+
+Executing command:
+./host vadd.xclbin 65536 11 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF65536,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF65536,PQ16 topK=100 recall_goal=0.8 QPS=800.2432739552825
+
+
+Executing command:
+./host vadd.xclbin 65536 51 1 /mnt/scratch/wenqi/saved_npy_data/FPGA_data_SIFT500M_OPQ16,IVF65536,PQ16_4_FPGA_12_banks/FPGA_0 /mnt/scratch/wenqi/saved_npy_data/gnd
+
+
+dbname=SIFT500M index_key=OPQ16,IVF65536,PQ16 topK=100 recall_goal=0.95 QPS=800.2304663743158
+
+
